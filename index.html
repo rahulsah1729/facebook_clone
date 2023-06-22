@@ -4,9 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Facebook - log in or sign up</title>
 </head>
-<body>
-    
+<body class="bg-gray-100">
+    <div class="container flex mt-32 mx-auto items-center justify-center">
+        <div class="left w-1/3 mx-14">
+            <img class="w-72" src="facebook.png" alt="">
+            <p class="text-xl mx-8">Facebook helps you connect and share with the people in your life.</p>
+        </div>
+        <div class="right flex flex-col bg-white p-8 rounded-xl w-1/3 text-lg relative" >
+            <input type="text" class="px-4 h-12 my-2 border border-1 outline-blue-600 border-gray-200 rounded-lg" placeholder="Email address or phone number">
+            <input type="password" class="px-4 h-12 my-2 border border-1 outline-blue-600 border-gray-200 rounded-lg" placeholder="Password">
+            <button class="btn bg-blue-600 hover:bg-blue-700 text-white my-2 py-3 rounded-md font-bold">Log In</button>
+            <span class="text-blue-600 text-center my-2 text-sm cursor-pointer hover:underline">Forgotten password?</span>
+            <hr class="my-2">
+            <button class="btn bg-green-600 hover:bg-green-700 text-white my-2 p-3 rounded-md font-bold w-fit mx-auto">Create New Account</button>
+            <span class="absolute -bottom-12 text-sm"><span class="font-bold hover:underline cursor-pointer">Create a page </span>for a celebrity, brand or business</span>
+        </div>
+    </div>
 </body>
 </html>
